@@ -1,0 +1,66 @@
+/*Styling af dropdown menuen*/
+#dropdown{
+    background-color: #332d2d;
+} 
+#dropdown a:hover{
+  background-color: #4c4545;
+}
+#dropdown-item{
+    color: white;  
+}
+/*Styling af Cards*/
+.MovieCard {
+    display: inline-block;
+    position: relative;
+    align-self: top;
+    width: 250px;
+    min-height: 43vh;
+    max-height: 43vh;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #333333;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /*Styling af billederne
+  (TODO) - justér billederne til samme størrelse*/
+  .MovieCard img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5%;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  /*Styling af containeren i information of filmene*/
+  .detail-container {
+    border: 1px solid black;
+    text-align: center;
+    width: 750px;
+    margin: auto;
+    margin-top: 100px;
+  }
+  
+  /*Styling af childs i container*/
+  .detail-container > * {
+    padding: 10px;
+  }
+
+  /*Styling af specifikt tekst*/
+  #txt{
+    font-weight: bold;
+  }
+  /*Størrelse af billedet*/
+  #thumbnail{
+    width: 25%;
+    height: 25%;
+  }
